@@ -1,0 +1,9 @@
+nest g module tasks
+nest g controller tasks --no-spec (/tasks procesa con los métodos de esta clase)
+nest g service tasks (se puede inyectar esta dependencia en otras clases)
+se agrega manualmente task.entity.ts es una clase tipo interfaz
+se crea un data transfer object dto dentro de tasks (lo que llega desde el cliente)
+se ocupa class-validator para validar valores de entrada.
+npm i --save class-validator class-transformer
+npm start:dev
+npm start (produccion luego de build)

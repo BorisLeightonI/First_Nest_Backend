@@ -1,0 +1,5 @@
+nest g module tasks
+nest g controller tasks --no-spec (/tasks procesa con los métodos de esta clase)
+nest g service tasks (se puede inyectar esta dependencia en otras clases)
+se agrega manualmente task.entity.ts (se define el tipo de datos como interfaz y una enumeración)
+se instala una dependencia: uuid y @types/uuid -D
